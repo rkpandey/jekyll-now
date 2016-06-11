@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-## Sparkling HBase
-
 Several abstractions have come along to make cloud-scale analytics easier. One of them is [Apache Spark](http://spark.apache.org). Spark is the one of the most active project of apache. It utilizes cluster memory to minimize the disk reads and writes that slow down MapReduce. Once you get past the learning curve, I don’t see how anyone would prefer Java to Scala for analytics.
 
 Please take a look at the [Spark documentation](http://spark.apache.org/docs/latest/scala-programming-guide.html) to learn about the [RDD](https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD) abstraction. RDD’s are basically fancy arrays. You load data into them and perform whatever combination of operations—maps, filters, reducers, etc.— you want. RDD’s make analytics so much more fun to write than canonical MapReduce. In the end, Spark doesn’t just run faster; it lets us write faster.
