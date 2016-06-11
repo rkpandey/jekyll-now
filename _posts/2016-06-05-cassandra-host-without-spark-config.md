@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Cassandra Host outside of Spark Config
 layout: post
 categories:
