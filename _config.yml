@@ -72,27 +72,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-prose:
-  metadata:
-    _posts: |
-      layout: post
-      categories:
-        - Analytics
-        - big data
-        - Cassandra
-        - java
-        - Scala
-        - spark
-        - sparksql
-      tags:
-        - big data
-        - cassandra
-        - cassandra cluster
-        - clustering key
-        - composite key
-        - hbase
-        - partition key
-        - primary key
+
   
 # Exclude these files from your production _site
 exclude:
