@@ -10,9 +10,15 @@ categories:
   - Scala
   - spark
   - sparksql
-tags: >-
-  big data, cassandra, cassandra cluster, clustering key, composite key, hbase,
-  partition key, primary key
+tags:
+  - big data
+  - cassandra
+  - cassandra cluster
+  - clustering key
+  - composite key
+  - hbase
+  - partition key
+  - primary key
 ---
 When I started reading [Cassandra docs](http://cassandra.apache.org/), my biggest source of confusion started with all different types of keys that Cassandra has. I will give you the simplified view of all types of keys here with CQL examples.
 
