@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 When I started reading [Cassandra docs](http://cassandra.apache.org/), my biggest source of confusion started with all different types of keys that Cassandra has. I will give you the simplified view of all types of keys here with CQL examples.
 
