@@ -4,6 +4,8 @@ published: false
 ---
 layout: post
 title: Sparkling HBase
+categories: Big Data
+tags:
 ---
 
 ## Sparkling HBase
