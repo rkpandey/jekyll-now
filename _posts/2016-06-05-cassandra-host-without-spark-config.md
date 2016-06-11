@@ -27,7 +27,7 @@ One possible way I have identified is to override CassandraConnectionFactory tr
 If you override CassandraConnectionFactory like following:
 ```scala
 class SparkleCassandraConnectionFactory extends CassandraConnectionFactory {
- /** Creates and configures native Cassandra connection */
+ /* Creates and configures native Cassandra connection */
  override def createCluster(conf: CassandraConnectorConf): Cluster = {
    //one can change conf parameter and push your own host and port...
    DefaultConnectionFactory.clusterBuilder(conf).build()
