@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: 'Cassandra keys : primary, composite, clustering and partitioning'
 categories:
