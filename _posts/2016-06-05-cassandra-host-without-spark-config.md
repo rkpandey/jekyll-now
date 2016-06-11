@@ -25,6 +25,7 @@ As mentioned at the [cassandra spark connector help page](https://github.com/dat
 One possible way I have identified is to override CassandraConnectionFactory trait. By default, there is DefaultConnectionFactory object that is plugged in as a connection factory implementation. Since it is an object there is not much change we can do...
 
 If you override CassandraConnectionFactory like following:
+
 ```scala
 class SparkleCassandraConnectionFactory extends CassandraConnectionFactory {
  /* Creates and configures native Cassandra connection */
@@ -34,4 +35,5 @@ class SparkleCassandraConnectionFactory extends CassandraConnectionFactory {
  }
 }
 ```
+
 Using this approach, you can not only provide host and port for cassandra server but also the authentication info, that you may not like to specify at configuration or as command line parameter due to security issues.
