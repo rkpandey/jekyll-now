@@ -37,7 +37,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://rkpandey.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -72,7 +72,28 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+prose:
+  metadata:
+    "_posts/blog": |
+      layout: post
+      categories:
+        - Analytics
+        - big data
+        - Cassandra
+        - java
+        - Scala
+        - spark
+        - sparksql
+      tags:
+        - big data
+        - cassandra
+        - cassandra cluster
+        - clustering key
+        - composite key
+        - hbase
+        - partition key
+        - primary key
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile
