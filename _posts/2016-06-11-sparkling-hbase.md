@@ -1,5 +1,9 @@
 ---
 published: true
+layout: post
+title: Sparkling HBase
+categories: Big Data
+tags: spark, hbase, lookup, cache, performance  
 ---
 Several abstractions have come along to make cloud-scale analytics easier. One of them is [Apache Spark](http://spark.apache.org). Spark is the one of the most active project of apache. It utilizes cluster memory to minimize the disk reads and writes that slow down MapReduce. Once you get past the learning curve, I don’t see how anyone would prefer Java to Scala for analytics.
 
